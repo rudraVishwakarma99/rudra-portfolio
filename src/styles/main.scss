@@ -178,8 +178,37 @@ body {
   text-decoration: none;
 }
 
-.contact-card {
+.about-card,
+.contact-card,
+.highlights-card {
   text-align: left;
+}
+
+.highlights-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.highlight-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.about-list {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+  color: var(--secondary-color);
+}
+
+.about-list li+li {
+  margin-top: 0.5rem;
 }
 
 .contact-card h2 {
@@ -191,10 +220,50 @@ body {
   padding: calc(var(--spacing) * 3) 0;
 }
 
+.section-heading {
+  margin-bottom: 1.25rem;
+}
+
+.section-heading h2,
 .content-section h3 {
   margin-bottom: calc(var(--spacing) * 1.5);
   color: var(--primary-color);
   font-size: 1.75rem;
+}
+
+.section-heading p {
+  color: var(--secondary-color);
+  max-width: 700px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.project-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+.project-meta,
+.project-impact {
+  margin-top: 1rem;
+}
+
+.project-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.project-badge {
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
 }
 
 .skills-grid {
