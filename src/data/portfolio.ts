@@ -4,8 +4,42 @@ export const portfolioData: PortfolioData = {
   hero: {
     name: "Rudra Kumar Vishwakarma",
     title: "Senior Frontend Engineer",
-    tagline: "Frontend engineer with 3.9+ years of experience building scalable React, Next.js, and TypeScript applications for enterprise products.",
+    tagline: "Frontend engineer with 3.9+ years of experience crafting scalable React, Next.js, and TypeScript applications for enterprise products.",
   },
+  about: {
+    intro: "I build fast, accessible, and maintainable frontend experiences for products that need to scale. My work sits at the intersection of UI engineering, design systems, and practical product delivery.",
+    bullets: [
+      "3.9+ years building React and TypeScript applications for enterprise products.",
+      "Experienced in creating reusable UI systems, performance-focused interfaces, and clean product architecture.",
+      "Focused on translating product ideas into reliable user experiences that are easy to maintain."
+    ]
+  },
+  highlights: [
+    "React, Next.js, TypeScript",
+    "Design systems and component libraries",
+    "Performance and accessibility focused",
+    "Enterprise product delivery"
+  ],
+  projects: [
+    {
+      title: "SmartDrive Customer Portal Modernization",
+      summary: "Modernized a legacy ASP.NET portal into a React-based single-page experience with better navigation, maintainability, and performance.",
+      stack: ["React.js", "Redux", "TypeScript", "ASP.NET"],
+      impact: "Improved page load experience and enabled a smoother, more scalable customer journey."
+    },
+    {
+      title: "Solera React Infrastructure",
+      summary: "Built and maintained a private component library used across multiple enterprise products to standardize UI and speed up delivery.",
+      stack: ["React.js", "TypeScript", "NPM", "GitHub Actions"],
+      impact: "Reduced UI setup time and helped teams ship consistent product interfaces faster."
+    },
+    {
+      title: "SmartDrive Video Player Modernization",
+      summary: "Replaced a legacy playback experience with a more reliable cross-platform React-based solution.",
+      stack: ["React.js", "Electron.js", "TypeScript"],
+      impact: "Improved supportability and expanded the experience across web and desktop environments."
+    }
+  ],
   contact: {
     email: "rudravishwakarmark@gmail.com",
     linkedin: "https://www.linkedin.com/in/rudra-kumar-vishwakarma"
