@@ -20,6 +20,11 @@ export const portfolioData: PortfolioData = {
     "Performance and accessibility focused",
     "Enterprise product delivery"
   ],
+  stats: [
+    { label: "Years Experience", value: "3.9+" },
+    { label: "Enterprise Products", value: "3+" },
+    { label: "Core Focus", value: "Frontend UX" }
+  ],
   projects: [
     {
       title: "SmartDrive Customer Portal Modernization",

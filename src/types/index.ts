@@ -27,6 +27,7 @@ export interface PortfolioData {
   hero: { name: string; title: string; tagline: string; };
   about: { intro: string; bullets: string[]; };
   highlights: string[];
+  stats: { label: string; value: string; }[];
   projects: ProjectItem[];
   contact: { email: string; linkedin: string; };
   skills: SkillGroup[];

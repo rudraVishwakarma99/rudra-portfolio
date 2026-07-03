@@ -24,20 +24,23 @@ export const ExperienceTimeline: React.FC<TimelineProps> = ({ data }) => {
           if (activeFilter && filteredHighlights.length === 0) return null;
 
           return (
-            <Card key={job.id} className="role-card">
-              <header>
-                <div>
-                  <h4>{job.role}</h4>
-                  <p className="company">{job.company}</p>
-                </div>
-                <time>{job.period}</time>
-              </header>
-              <ul>
-                {filteredHighlights.map((highlight, idx) => (
-                  <li key={idx}>{highlight.text}</li>
-                ))}
-              </ul>
-            </Card>
+            <div key={job.id} className="timeline-item-wrapper">
+              <div className="timeline-dot" />
+              <Card className="role-card">
+                <header>
+                  <div>
+                    <h4>{job.role}</h4>
+                    <p className="company">{job.company}</p>
+                  </div>
+                  <time>{job.period}</time>
+                </header>
+                <ul className="about-list">
+                  {filteredHighlights.map((highlight, idx) => (
+                    <li key={idx}>{highlight.text}</li>
+                  ))}
+                </ul>
+              </Card>
+            </div>
           );
         })}
       </div>
