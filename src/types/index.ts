@@ -18,6 +18,7 @@ export interface SkillGroup {
 
 export interface PortfolioData {
   hero: { name: string; title: string; tagline: string; };
+  contact: { email: string; linkedin: string; };
   skills: SkillGroup[];
   experience: Job[];
 }
