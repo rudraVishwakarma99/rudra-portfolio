@@ -6,6 +6,10 @@ export const portfolioData: PortfolioData = {
     title: "Senior Frontend Engineer",
     tagline: "Building performant, scalable user interfaces and design systems for complex web products.",
   },
+  contact: {
+    email: "rudra.vishwakarma.dev@gmail.com",
+    linkedin: "https://www.linkedin.com/in/rudra-vishwakarma/"
+  },
   skills: [
     {
       category: "Frontend Engineering",

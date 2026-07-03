@@ -1,23 +1,27 @@
 :root {
   --bg-color: #f8f9fa;
-  --text-color: #333333;
-  --primary-color: #2c3e50;
-  --secondary-color: #34495e;
-  --accent-color: #3498db;
+  --bg-color-alt: #eef4ff;
+  --text-color: #1f2937;
+  --primary-color: #1e3a8a;
+  --secondary-color: #334155;
+  --accent-color: #2563eb;
   --card-bg: #ffffff;
-  --card-shadow: rgba(0, 0, 0, 0.05);
-  --focus-ring: #ff9800;
+  --card-shadow: rgba(15, 23, 42, 0.08);
+  --border-color: rgba(30, 58, 138, 0.12);
+  --focus-ring: #f59e0b;
   --spacing: 1rem;
 }
 
 [data-theme='dark'] {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --primary-color: #90caf9;
-  --secondary-color: #b0bec5;
-  --accent-color: #64b5f6;
-  --card-bg: #1e1e1e;
-  --card-shadow: rgba(0, 0, 0, 0.5);
+  --bg-color: #0f172a;
+  --bg-color-alt: #111827;
+  --text-color: #e5e7eb;
+  --primary-color: #93c5fd;
+  --secondary-color: #cbd5e1;
+  --accent-color: #60a5fa;
+  --card-bg: #111827;
+  --card-shadow: rgba(0, 0, 0, 0.45);
+  --border-color: rgba(255, 255, 255, 0.12);
 }
 
 * {
@@ -30,8 +34,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
-  background-color: var(--bg-color);
+  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-color-alt) 100%);
   transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
 }
 
 /* A11y Focus Rings & Utilities */
@@ -66,23 +71,18 @@ body {
 }
 
 .theme-btn {
-  background: var(--primary-color);
-  color: var(--bg-color);
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
+  box-shadow: 0 10px 30px var(--card-shadow);
 }
 
 /* UI Kit Components */
 .ui-card {
   background: var(--card-bg);
   padding: calc(var(--spacing) * 2);
-  border-radius: 8px;
-  box-shadow: 0 4px 6px var(--card-shadow);
+  border-radius: 16px;
+  box-shadow: 0 14px 45px var(--card-shadow);
   margin-bottom: calc(var(--spacing) * 1.5);
-  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  border: 1px solid var(--border-color);
 }
 
 .ui-badge {
@@ -101,6 +101,42 @@ body {
 .ui-badge.active {
   background: var(--accent-color);
   color: var(--card-bg);
+}
+
+/* Buttons */
+.ui-button,
+.ui-link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.ui-button:hover,
+.ui-link-button:hover {
+  transform: translateY(-1px);
+}
+
+.ui-button,
+.ui-link-button {
+  background: var(--accent-color);
+  color: white;
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
+}
+
+.ui-button--secondary,
+.ui-link-button--secondary {
+  background: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  box-shadow: none;
 }
 
 /* Specific Feature Styling */
@@ -125,6 +161,30 @@ body {
   margin-top: 1rem;
   font-style: italic;
   opacity: 0.8;
+}
+
+.hero-actions,
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.text-link {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-card {
+  text-align: left;
+}
+
+.contact-card h2 {
+  margin-bottom: 0.75rem;
+  color: var(--primary-color);
 }
 
 .content-section {

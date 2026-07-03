@@ -8,4 +8,11 @@ describe('App', () => {
 
     expect(screen.getByRole('heading', { level: 1, name: /Rudra Kumar Vishwakarma/i })).toBeInTheDocument();
   });
+
+  it('renders the contact section and download resume button', () => {
+    renderWithProviders(<App />);
+
+    expect(screen.getByRole('heading', { level: 2, name: /let's connect/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /download resume/i })).toHaveAttribute('href', '/Rudra-Kumar-Vishwakarma-Resume.txt');
+  });
 });
