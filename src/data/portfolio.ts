@@ -4,24 +4,24 @@ export const portfolioData: PortfolioData = {
   hero: {
     name: "Rudra Kumar Vishwakarma",
     title: "Senior Frontend Engineer",
-    tagline: "Building performant, scalable user interfaces and design systems for complex web products.",
+    tagline: "Frontend engineer with 3.9+ years of experience building scalable React, Next.js, and TypeScript applications for enterprise products.",
   },
   contact: {
-    email: "rudra.vishwakarma.dev@gmail.com",
-    linkedin: "https://www.linkedin.com/in/rudra-vishwakarma/"
+    email: "rudravishwakarmark@gmail.com",
+    linkedin: "https://www.linkedin.com/in/rudra-kumar-vishwakarma"
   },
   skills: [
     {
-      category: "Frontend Engineering",
-      items: ["React.js", "TypeScript", "Redux Toolkit", "Next.js", "Vite"]
+      category: "Frontend Expertise",
+      items: ["React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "Redux Toolkit", "React Hooks"]
     },
     {
       category: "UI Architecture",
-      items: ["Component Libraries", "Design Systems", "Sass", "Custom CSS", "Accessibility"]
+      items: ["Design Systems", "Component Libraries", "Accessibility (A11y)", "Responsive Web Design", "Figma to Code"]
     },
     {
-      category: "Product Delivery",
-      items: ["Performance Optimization", "Code Reviews", "Mentorship", "Cross-functional Collaboration"]
+      category: "Platform & Delivery",
+      items: ["Node.js", "Express.js", "REST APIs", "GraphQL", "GitHub Actions", "Jest", "CI/CD"]
     }
   ],
   experience: [
@@ -31,9 +31,9 @@ export const portfolioData: PortfolioData = {
       company: "SmartDrive Systems India Pvt. Ltd. (Solera Inc.)",
       period: "Nov 2025 - Present",
       highlights: [
-        { text: "Lead frontend architecture initiatives and shape reusable, modular UI patterns across product teams.", skillsUsed: ["React.js", "TypeScript"] },
-        { text: "Spearheaded JSON-driven screen generation approaches to accelerate delivery of configurable workflows.", skillsUsed: ["React.js", "Next.js"] },
-        { text: "Partnered closely with product and design teams to improve usability, consistency, and maintainability.", skillsUsed: ["Accessibility", "Design Systems"] }
+        { text: "Work on frontend architecture and implementation for the SmartDrive platform, applying React.js best practices, modular TypeScript components, and scalable Redux patterns.", skillsUsed: ["React.js", "TypeScript", "Redux Toolkit"] },
+        { text: "Support team growth by sharing practical guidance on TypeScript, performance optimization, and component-driven development.", skillsUsed: ["Mentorship", "Performance Optimization"] },
+        { text: "Contribute to JSON-driven dynamic screen generators that help product and UX teams ship new UI screens faster with less frontend effort.", skillsUsed: ["React.js", "Next.js"] }
       ]
     },
     {
@@ -42,9 +42,20 @@ export const portfolioData: PortfolioData = {
       company: "SmartDrive Systems India Pvt. Ltd. (Solera Inc.)",
       period: "Nov 2024 - Oct 2025",
       highlights: [
-        { text: "Architected and maintained the Solera React Infrastructure library to standardize shared frontend components.", skillsUsed: ["React.js", "TypeScript", "Component Libraries"] },
-        { text: "Developed a proprietary utility CSS framework to support scalable styling across enterprise interfaces.", skillsUsed: ["Custom CSS", "Sass"] },
-        { text: "Improved front-end reliability and maintainability through thoughtful component design and code quality practices.", skillsUsed: ["React.js", "Performance Optimization"] }
+        { text: "Architected the Solera React Infrastructure, a private NPM component library that standardized UI across 3+ enterprise products.", skillsUsed: ["React.js", "TypeScript", "Component Libraries"] },
+        { text: "Developed the Solera Uniformal CSS Framework, a proprietary utility CSS system supporting multi-theme branding and responsive layouts.", skillsUsed: ["Custom CSS", "Design Systems"] },
+        { text: "Modernized the SmartDrive video player from Silverlight to React.js and Electron.js, improving cross-platform support and reducing support tickets.", skillsUsed: ["React.js", "TypeScript"] }
+      ]
+    },
+    {
+      id: "3",
+      role: "Associate Software Engineer",
+      company: "SmartDrive Systems India Pvt. Ltd. (Solera Inc.)",
+      period: "Sep 2022 - Oct 2024",
+      highlights: [
+        { text: "Contributed to the SmartDrive Customer Portal modernization by migrating a legacy ASP.NET MPA to a React.js and Redux SPA with faster navigation and improved performance.", skillsUsed: ["React.js", "Redux", "Performance Optimization"] },
+        { text: "Played a key role in the OmniTrack platform consolidation, unifying legacy systems into a single React SPA with a microservices backend.", skillsUsed: ["React.js", "Node.js", "Microservices"] },
+        { text: "Implemented reusable UI components aligned with Solera UX standards and ensured WCAG 2.1 accessibility across critical modules.", skillsUsed: ["Accessibility", "Component Libraries"] }
       ]
     }
   ]
