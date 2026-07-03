@@ -40,6 +40,9 @@ const App: React.FC = () => {
           <a className="text-link" href={`mailto:${portfolioData.contact.email}`}>
             {portfolioData.contact.email}
           </a>
+          <a className="text-link" href={portfolioData.contact.linkedin} target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
         </div>
       </header>
 

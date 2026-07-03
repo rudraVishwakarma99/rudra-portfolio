@@ -2,29 +2,40 @@ Rudra Kumar Vishwakarma
 Senior Frontend Engineer
 
 Contact
-Email: rudra.vishwakarma.dev@gmail.com
-LinkedIn: https://www.linkedin.com/in/rudra-vishwakarma/
+Phone: +91-9902730881
+Email: rudravishwakarmark@gmail.com
+LinkedIn: https://www.linkedin.com/in/rudra-kumar-vishwakarma
+Location: Bangalore, India | Open to Relocate
 
-Summary
-Frontend engineer with experience building scalable React and TypeScript applications, design systems, and enterprise-grade UI infrastructure. Passionate about performance, accessibility, and creating reusable interfaces that ship consistently across products.
+Professional Summary
+Results-driven Senior Frontend Engineer with 3.9+ years of experience architecting scalable single-page applications and reusable component libraries using React.js, Redux, Next.js, and TypeScript. Proven track record of leading UI modernization initiatives, building proprietary CSS frameworks, and establishing frontend infrastructure adopted across multiple enterprise products.
 
-Core Skills
-- React.js, TypeScript, Next.js, Vite
-- Redux Toolkit, State Management
-- Component Libraries and Design Systems
-- SCSS, CSS Architecture, Accessibility
-- Performance Optimization, Code Reviews, Mentorship
+Technical Skills
+Frontend: React.js, Next.js, TypeScript, JavaScript (ES6+), Redux, Redux Toolkit, React Hooks, HTML5, CSS3, Responsive Web Design, SPAs, Micro Frontends, Component-Driven Development, Design Systems, Accessibility (A11y), Performance Optimization
+CSS & Styling: CSS Modules, Custom CSS Frameworks, Flexbox, Grid, Styled Components
+Backend: Node.js, Express.js, RESTful APIs, GraphQL (Apollo), Microservices Architecture
+Databases: MongoDB, MySQL, MS SQL Server, Redis
+DevOps & Tools: Git, GitHub Actions, CI/CD Pipelines, Docker, NPM/Yarn, Jira, Vite
+Testing & Quality: Jest, Unit Testing, ESLint, SonarQube
+Methodologies: Agile / Scrum, Clean Code, Modular Architecture, Code Review, Mentoring
+AI Tools: GitHub Copilot, Claude, ChatGPT, Cursor
 
 Professional Experience
 Senior Software Engineer | SmartDrive Systems India Pvt. Ltd. (Solera Inc.) | Nov 2025 - Present
-- Lead frontend architecture initiatives and reusable UI patterns across product teams.
-- Spearheaded JSON-driven screen generation strategies to accelerate workflow delivery.
-- Collaborated with product and design teams to improve consistency and maintainability.
+- Lead frontend architecture decisions for the SmartDrive platform, driving adoption of React.js best practices, modular TypeScript component design, and scalable Redux state management patterns.
+- Mentor junior and mid-level engineers on TypeScript, performance optimization, and component-driven development.
+- Spearheaded JSON-driven dynamic screen generators enabling product and UX teams to ship new UI screens faster without additional frontend code changes.
 
 Software Engineer II | SmartDrive Systems India Pvt. Ltd. (Solera Inc.) | Nov 2024 - Oct 2025
-- Architected and maintained a React infrastructure library for shared frontend components.
-- Developed a custom utility CSS framework to support enterprise styling needs.
-- Improved front-end reliability and maintainability through thoughtful component design.
+- Architected and maintained the Solera React Infrastructure, a versioned private NPM component library standardizing UI across 3+ enterprise products.
+- Developed the Solera Uniformal CSS Framework, a proprietary utility CSS system supporting Flexbox, Grid, multi-theme branding, and a bundled icon font library.
+- Modernized the SmartDrive video player from deprecated Silverlight to React.js + Electron.js, achieving cross-platform support across web and desktop.
+
+Associate Software Engineer | SmartDrive Systems India Pvt. Ltd. (Solera Inc.) | Sep 2022 - Oct 2024
+- Contributed to the SmartDrive Customer Portal modernization, migrating a legacy ASP.NET MPA to a React.js + Redux SPA.
+- Played a key role in OmniTrack, consolidating two legacy platforms into one unified React SPA with a Node.js microservices backend.
+- Implemented reusable UI components aligned with Solera UX standards and ensured WCAG 2.1 accessibility compliance.
 
 Education
-Bachelor's degree in Computer Science / related field
+Bachelor of Engineering — Computer Science | Aug 2018 - Aug 2022
+Visvesvaraya Technological University, Bangalore, Karnataka, India
