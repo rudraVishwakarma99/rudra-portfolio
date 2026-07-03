@@ -1,0 +1,30 @@
+Rudra Kumar Vishwakarma
+Senior Frontend Engineer
+
+Contact
+Email: rudra.vishwakarma.dev@gmail.com
+LinkedIn: https://www.linkedin.com/in/rudra-vishwakarma/
+
+Summary
+Frontend engineer with experience building scalable React and TypeScript applications, design systems, and enterprise-grade UI infrastructure. Passionate about performance, accessibility, and creating reusable interfaces that ship consistently across products.
+
+Core Skills
+- React.js, TypeScript, Next.js, Vite
+- Redux Toolkit, State Management
+- Component Libraries and Design Systems
+- SCSS, CSS Architecture, Accessibility
+- Performance Optimization, Code Reviews, Mentorship
+
+Professional Experience
+Senior Software Engineer | SmartDrive Systems India Pvt. Ltd. (Solera Inc.) | Nov 2025 - Present
+- Lead frontend architecture initiatives and reusable UI patterns across product teams.
+- Spearheaded JSON-driven screen generation strategies to accelerate workflow delivery.
+- Collaborated with product and design teams to improve consistency and maintainability.
+
+Software Engineer II | SmartDrive Systems India Pvt. Ltd. (Solera Inc.) | Nov 2024 - Oct 2025
+- Architected and maintained a React infrastructure library for shared frontend components.
+- Developed a custom utility CSS framework to support enterprise styling needs.
+- Improved front-end reliability and maintainability through thoughtful component design.
+
+Education
+Bachelor's degree in Computer Science / related field
